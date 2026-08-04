@@ -154,3 +154,8 @@ https://www.linkedin.com/in/saquib-ahmed-ab21023a9/
 ---
 
 ⭐ If you like my work, feel free to connect!
+
+## 📸 Portfolio Preview
+
+<img src="screenshots/portfolio.png" width="900" />
+
