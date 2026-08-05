@@ -2,7 +2,7 @@
 ## AI/ML Engineer | Full Stack Developer
 
 <p align="center">
-  <img src="screenshots/portfolio.png" width="900"/>
+  <img src="screenshots/portfolio.png?v=2" width="900"/>
 </p>
 
 <p align="center">
