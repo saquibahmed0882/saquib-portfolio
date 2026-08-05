@@ -4,9 +4,9 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-[#050816] pt-24">
+      <section className="min-h-screen flex items-start md:items-center bg-[#050816] pt-32 md:pt-24 pb-12">
 
-      <div className="max-w-7xl mx-auto w-full px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto w-full px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 
         <div>
 
@@ -33,7 +33,7 @@ function Hero() {
           </p>
 
 
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
             Saquib Ahmed
           </h1>
 
@@ -63,7 +63,7 @@ function Hero() {
 
 
 
-          <div className="flex gap-5 mt-10">
+          <div className="flex flex-col sm:flex-row gap-5 mt-10">
 
 
             <a

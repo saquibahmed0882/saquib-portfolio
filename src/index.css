@@ -19,3 +19,7 @@ body {
 #root {
   min-height: 100vh;
 }
+
+.section-space {
+  margin-bottom: 10rem;
+}

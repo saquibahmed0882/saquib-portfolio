@@ -23,32 +23,32 @@ function App() {
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <About />
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <Skills />
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <Experience />
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <Education />
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <Projects />
         </section>
 
 
-        <section className="mb-24">
+        <section className="section-space">
           <Contact />
         </section>
 
