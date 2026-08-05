@@ -4,7 +4,7 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-      <section className="min-h-screen flex items-start md:items-center bg-orange-500 pt-40 sm:pt-32 md:pt-24 pb-12">
+      <section className="min-h-screen flex items-start md:items-center bg-[#061a14] pt-40 sm:pt-32 md:pt-24 pb-12">
 
       <div className="max-w-7xl mx-auto w-full px-5 sm:px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 

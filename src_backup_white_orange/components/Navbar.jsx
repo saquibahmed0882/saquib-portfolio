@@ -28,7 +28,7 @@ function Navbar() {
       left-0
       w-full
       z-50
-      bg-white/80
+      bg-[#061a14]/80
       backdrop-blur-xl
       border-b
       border-white/10
