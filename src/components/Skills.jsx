@@ -79,7 +79,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="pt-48 pb-28 px-6 bg-gradient-to-b from-[#0d1328] to-[#061a14]"
+      className="pt-48 pb-28 px-6 bg-gradient-to-b from-gray-50 to-white"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -113,7 +113,7 @@ function Skills() {
             <motion.div
               key={category.title}
               whileHover={{ y: -8 }}
-              className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8"
+              className="bg-white backdrop-blur-lg border border-gray-200 shadow-lg rounded-3xl p-8"
             >
 
               <h3 className="text-2xl font-semibold mb-6">

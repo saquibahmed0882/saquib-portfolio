@@ -35,9 +35,9 @@ function About() {
           whileInView={{opacity:1,y:0}}
           transition={{duration:1}}
           className="
-          bg-white/5
+          bg-white
           backdrop-blur-xl
-          border border-white/10
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-10
           shadow-2xl
@@ -147,9 +147,9 @@ function About() {
           transition={{duration:1}}
           className="
           mt-10
-          bg-white/5
+          bg-white
           backdrop-blur-xl
-          border border-white/10
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-10
           "
@@ -191,7 +191,7 @@ function About() {
                 bg-gray-100
                 rounded-xl
                 p-5
-                border border-white/10
+                border border-gray-200 shadow-lg
                 hover:border-emerald-500
                 transition
                 "

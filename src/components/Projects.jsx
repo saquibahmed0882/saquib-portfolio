@@ -71,7 +71,7 @@ function Projects() {
 
     <section
       id="projects"
-      className="py-32 px-6 bg-[#080b1a]"
+      className="py-32 px-6 bg-gray-50"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -107,9 +107,9 @@ function Projects() {
           transition={{duration:0.7,delay:index*0.2}}
 
           className="
-          bg-white/5
+          bg-white
           backdrop-blur-xl
-          border border-white/10
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-8
           hover:-translate-y-3

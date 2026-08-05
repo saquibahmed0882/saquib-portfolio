@@ -31,7 +31,7 @@ function Experience() {
 
     <section
       id="experience"
-      className="py-32 px-6 bg-[#080b1a]"
+      className="py-32 px-6 bg-gray-50"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -82,7 +82,7 @@ function Experience() {
 
               <div className="
               mt-3
-              bg-white/5
+              bg-white
               border
               border-white/10
               rounded-2xl

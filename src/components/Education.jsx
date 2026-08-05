@@ -28,8 +28,8 @@ function Education() {
           whileInView={{opacity:1,y:0}}
           transition={{duration:0.8}}
           className="
-          bg-white/5
-          border border-white/10
+          bg-white
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-10
           "

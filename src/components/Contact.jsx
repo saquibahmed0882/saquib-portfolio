@@ -7,7 +7,7 @@ function Contact() {
 
     <section
       id="contact"
-      className="py-32 px-6 bg-[#080b1a]"
+      className="py-32 px-6 bg-gray-50"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -36,8 +36,8 @@ function Contact() {
           whileInView={{opacity:1,x:0}}
           transition={{duration:0.8}}
           className="
-          bg-white/5
-          border border-white/10
+          bg-white
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-10
           "
@@ -116,7 +116,7 @@ function Contact() {
           bg-gradient-to-br
           from-emerald-600/20
           to-green-600/20
-          border border-white/10
+          border border-gray-200 shadow-lg
           rounded-3xl
           p-10
           "
