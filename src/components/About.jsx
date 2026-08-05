@@ -113,10 +113,17 @@ function About() {
 
                 I am Saquib Ahmed, a B.Tech Artificial Intelligence &
                 Machine Learning student at Birla Institute of Technology,
-                Mesra.
+                Mesra, passionate about building intelligent software
+                solutions and scalable applications.
 
-                I build AI-powered applications, machine learning solutions
-                and scalable full-stack software systems.
+                I specialize in Artificial Intelligence, Machine Learning,
+                Data Science and Full Stack Development, with hands-on
+                experience in creating AI-powered applications,
+                data-driven solutions and modern web platforms.
+
+                I enjoy transforming innovative ideas into real-world
+                products by combining machine learning, software engineering
+                and user-focused design.
 
               </p>
 
