@@ -109,7 +109,7 @@ function About() {
               </div>
 
 
-              <p className="text-gray-700 text-lg leading-8">
+              <p className="text-gray-300 text-lg leading-8">
 
                 I am Saquib Ahmed, a B.Tech Artificial Intelligence &
                 Machine Learning student at Birla Institute of Technology,
@@ -168,7 +168,7 @@ function About() {
 
 
 
-          <p className="text-gray-600 text-lg leading-8 mb-8">
+          <p className="text-gray-400 text-lg leading-8 mb-8">
 
             My interests include Artificial Intelligence,
             Machine Learning, Data Science and Full Stack Development.
@@ -188,7 +188,7 @@ function About() {
                 key={item.text}
                 className="
                 flex items-center gap-4
-                bg-gray-100
+                bg-[#11162a]
                 rounded-xl
                 p-5
                 border border-white/10

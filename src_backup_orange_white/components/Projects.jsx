@@ -139,7 +139,7 @@ function Projects() {
 
 
 
-            <p className="text-gray-600 leading-7 mb-6">
+            <p className="text-gray-400 leading-7 mb-6">
               {project.description}
             </p>
 
@@ -150,7 +150,7 @@ function Projects() {
             </h4>
 
 
-            <ul className="space-y-2 text-gray-700 mb-6">
+            <ul className="space-y-2 text-gray-300 mb-6">
 
               {project.features.map((feature)=>(
 

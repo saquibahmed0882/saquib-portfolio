@@ -36,7 +36,7 @@ function Footer(){
 
 
 
-        <p className="text-gray-600 mt-4 text-lg">
+        <p className="text-gray-400 mt-4 text-lg">
           AI/ML Engineer | Full Stack Developer
         </p>
 

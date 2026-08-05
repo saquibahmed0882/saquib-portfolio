@@ -48,7 +48,7 @@ function Contact() {
             </h3>
 
 
-            <p className="text-gray-700 leading-8">
+            <p className="text-gray-300 leading-8">
 
               Need a developer for your project?
 
@@ -127,7 +127,7 @@ function Contact() {
             </h3>
 
 
-            <p className="text-gray-700 leading-7">
+            <p className="text-gray-300 leading-7">
 
               Open for internships, collaborations,
               AI projects and software development opportunities.

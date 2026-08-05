@@ -45,7 +45,7 @@ function Education() {
           </h3>
 
 
-          <p className="text-gray-600 text-xl mt-3">
+          <p className="text-gray-400 text-xl mt-3">
             Birla Institute of Technology, Mesra
           </p>
 
@@ -82,7 +82,7 @@ function Education() {
           </h4>
 
 
-          <div className="grid md:grid-cols-2 gap-3 text-gray-700">
+          <div className="grid md:grid-cols-2 gap-3 text-gray-300">
 
             <p>• Data Structures & Algorithms</p>
             <p>• Machine Learning</p>
@@ -103,7 +103,7 @@ function Education() {
           </h4>
 
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-gray-300">
 
             <li>• Building AI-powered applications and intelligent systems</li>
 
@@ -125,7 +125,7 @@ function Education() {
           </h4>
 
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-gray-300">
 
             <li>• Built multiple AI/ML and Full Stack projects</li>
 

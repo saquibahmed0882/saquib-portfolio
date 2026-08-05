@@ -70,7 +70,7 @@ function Navbar() {
         lg:flex
         gap-8
         items-center
-        text-gray-700
+        text-gray-300
         ">
 
 
@@ -133,7 +133,7 @@ function Navbar() {
       flex
       flex-col
       gap-5
-      text-gray-700
+      text-gray-300
       ">
 
 

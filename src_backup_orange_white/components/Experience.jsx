@@ -95,12 +95,12 @@ function Experience() {
                 </h3>
 
 
-                <p className="text-gray-600 mt-2">
+                <p className="text-gray-400 mt-2">
                   {exp.company}
                 </p>
 
 
-                <ul className="mt-5 space-y-3 text-gray-700">
+                <ul className="mt-5 space-y-3 text-gray-300">
 
                   {exp.points.map((point)=>(
 

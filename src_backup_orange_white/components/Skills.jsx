@@ -99,7 +99,7 @@ function Skills() {
             Technical Skills
           </h2>
 
-          <p className="text-gray-600 mt-5 text-lg">
+          <p className="text-gray-400 mt-5 text-lg">
             Technologies I use to build AI-powered and scalable applications.
           </p>
 
@@ -127,7 +127,7 @@ function Skills() {
 
                   <div
                     key={skill.name}
-                    className="bg-gray-100 rounded-xl p-4 hover:bg-emerald-500/10 transition"
+                    className="bg-[#11162a] rounded-xl p-4 hover:bg-emerald-500/10 transition"
                   >
 
                     <div className="flex items-center gap-3">

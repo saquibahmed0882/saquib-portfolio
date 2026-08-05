@@ -38,7 +38,7 @@ function Hero() {
           </h1>
 
 
-          <div className="text-2xl md:text-4xl text-gray-300 mt-6 h-16">
+          <div className="text-2xl md:text-4xl text-gray-700 mt-6 h-16">
 
             <TypeAnimation
               sequence={[
@@ -55,7 +55,7 @@ function Hero() {
 
 
 
-          <p className="text-gray-400 mt-8 max-w-xl leading-8 text-lg">
+          <p className="text-gray-600 mt-8 max-w-xl leading-8 text-lg">
             I build intelligent software, AI-powered applications,
             machine learning solutions and scalable full-stack platforms
             using modern technologies.
@@ -118,7 +118,7 @@ function Hero() {
               <h3 className="text-3xl font-bold text-emerald-400">
                 2+
               </h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 text-sm">
                 Projects
               </p>
             </div>
@@ -128,7 +128,7 @@ function Hero() {
               <h3 className="text-3xl font-bold text-emerald-400">
                 AI
               </h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 text-sm">
                 Specialization
               </p>
             </div>
@@ -138,7 +138,7 @@ function Hero() {
               <h3 className="text-3xl font-bold text-emerald-400">
                 2027
               </h3>
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-600 text-sm">
                 Graduation
               </p>
             </div>
