@@ -5,7 +5,7 @@ function Education() {
   return (
     <section
       id="education"
-      className="py-32 px-6 bg-[#050816]"
+      className="py-32 px-6 bg-[#061a14]"
     >
 
       <div className="max-w-6xl mx-auto">

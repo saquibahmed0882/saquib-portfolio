@@ -79,7 +79,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="pt-48 pb-28 px-6 bg-gradient-to-b from-[#0d1328] to-[#050816]"
+      className="pt-48 pb-28 px-6 bg-gradient-to-b from-[#0d1328] to-[#061a14]"
     >
 
       <div className="max-w-7xl mx-auto">

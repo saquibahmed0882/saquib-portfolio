@@ -8,7 +8,7 @@ function Footer(){
     className="
     py-12
     px-6
-    bg-[#050816]
+    bg-[#061a14]
     border-t
     border-white/10
     "
