@@ -28,7 +28,7 @@ function Hero() {
           </div>
 
 
-          <p className="text-emerald-400 text-lg mb-3">
+          <p className="text-blue-400 text-lg mb-3">
             Hello, I'm
           </p>
 
@@ -70,8 +70,8 @@ function Hero() {
               href="#projects"
               className="
               bg-gradient-to-r
-              from-emerald-600
-              to-green-600
+              from-blue-600
+              to-purple-600
               px-8
               py-3
               rounded-full
@@ -115,7 +115,7 @@ function Hero() {
 
 
             <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
+              <h3 className="text-3xl font-bold text-blue-400">
                 2+
               </h3>
               <p className="text-gray-400 text-sm">
@@ -125,7 +125,7 @@ function Hero() {
 
 
             <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
+              <h3 className="text-3xl font-bold text-blue-400">
                 AI
               </h3>
               <p className="text-gray-400 text-sm">
@@ -135,7 +135,7 @@ function Hero() {
 
 
             <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
+              <h3 className="text-3xl font-bold text-blue-400">
                 2027
               </h3>
               <p className="text-gray-400 text-sm">
@@ -185,7 +185,7 @@ function Hero() {
             <div className="
             absolute
             inset-0
-            bg-emerald-500
+            bg-blue-500
             blur-3xl
             rounded-full
             opacity-30
@@ -205,7 +205,7 @@ function Hero() {
               rounded-full
               object-cover
               border-4
-              border-emerald-500
+              border-blue-500
               shadow-2xl
               "
             />

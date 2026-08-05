@@ -25,8 +25,8 @@ function Footer(){
         tracking-widest
         bg-gradient-to-r
         from-cyan-400
-        via-emerald-500
-        to-green-600
+        via-blue-500
+        to-purple-600
         bg-clip-text
         text-transparent
         "
@@ -60,7 +60,7 @@ function Footer(){
           href="https://github.com/saquibahmed0882"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-blue-400 transition"
           >
             <FaGithub/>
           </a>
@@ -70,7 +70,7 @@ function Footer(){
           href="https://linkedin.com"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-blue-400 transition"
           >
             <FaLinkedin/>
           </a>
@@ -78,7 +78,7 @@ function Footer(){
 
           <a
           href="mailto:saquibahmed0882@gmail.com"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-blue-400 transition"
           >
             <FaEnvelope/>
           </a>

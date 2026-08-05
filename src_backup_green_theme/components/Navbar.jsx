@@ -54,8 +54,8 @@ function Navbar() {
         tracking-widest
         bg-gradient-to-r
         from-cyan-400
-        via-emerald-500
-        to-green-600
+        via-blue-500
+        to-purple-600
         bg-clip-text
         text-transparent
         "
@@ -80,7 +80,7 @@ function Navbar() {
           key={link.name}
           href={link.href}
           className="
-          hover:text-emerald-400
+          hover:text-blue-400
           transition
           "
           >
@@ -98,8 +98,8 @@ function Navbar() {
         px-5
         py-2
         rounded-full
-        bg-emerald-600
-        hover:bg-emerald-700
+        bg-blue-600
+        hover:bg-blue-700
         "
         >
           Resume

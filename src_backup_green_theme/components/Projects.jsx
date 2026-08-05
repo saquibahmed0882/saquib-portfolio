@@ -79,7 +79,7 @@ function Projects() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-blue-400">
             Portfolio
           </p>
 
@@ -123,8 +123,8 @@ function Projects() {
             h-40
             rounded-2xl
             bg-gradient-to-r
-            from-emerald-600/30
-            to-green-600/30
+            from-blue-600/30
+            to-purple-600/30
             flex
             items-center
             justify-center
@@ -174,10 +174,10 @@ function Projects() {
                 px-3
                 py-1
                 rounded-full
-                bg-emerald-500/10
+                bg-blue-500/10
                 border
-                border-emerald-500/30
-                text-emerald-300
+                border-blue-500/30
+                text-blue-300
                 text-sm
                 "
                 >
@@ -206,8 +206,8 @@ function Projects() {
               px-5
               py-2
               rounded-full
-              bg-emerald-600
-              hover:bg-emerald-700
+              bg-blue-600
+              hover:bg-blue-700
               "
               >
 

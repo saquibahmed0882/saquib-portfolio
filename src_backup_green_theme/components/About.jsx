@@ -47,7 +47,7 @@ function About() {
 
           <div className="text-center mb-12">
 
-            <p className="uppercase tracking-[6px] text-emerald-400">
+            <p className="uppercase tracking-[6px] text-blue-400">
               About Me
             </p>
 
@@ -55,7 +55,7 @@ function About() {
 
               Turning Ideas Into
 
-              <span className="text-emerald-500">
+              <span className="text-blue-500">
                 {" "}Intelligent Software
               </span>
 
@@ -84,7 +84,7 @@ function About() {
                 w-[420px]
                 rounded-3xl
                 border
-                border-emerald-500/40
+                border-blue-500/40
                 shadow-[0_0_50px_rgba(37,99,235,0.3)]
                 "
               />
@@ -100,7 +100,7 @@ function About() {
 
               <div className="flex items-center gap-3 mb-5">
 
-                <FaUserGraduate className="text-emerald-400 text-3xl"/>
+                <FaUserGraduate className="text-blue-400 text-3xl"/>
 
                 <h3 className="text-3xl font-semibold">
                   Overview
@@ -151,7 +151,7 @@ function About() {
 
           <div className="flex items-center gap-3 mb-6">
 
-            <FaLightbulb className="text-emerald-400 text-3xl"/>
+            <FaLightbulb className="text-blue-400 text-3xl"/>
 
             <h3 className="text-3xl font-semibold">
               Details
@@ -185,12 +185,12 @@ function About() {
                 rounded-xl
                 p-5
                 border border-white/10
-                hover:border-emerald-500
+                hover:border-blue-500
                 transition
                 "
               >
 
-                <span className="text-emerald-400 text-2xl">
+                <span className="text-blue-400 text-2xl">
                   {item.icon}
                 </span>
 

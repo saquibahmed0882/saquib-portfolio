@@ -91,7 +91,7 @@ function Skills() {
           className="text-center mb-16"
         >
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-blue-400">
             Expertise
           </p>
 
@@ -127,12 +127,12 @@ function Skills() {
 
                   <div
                     key={skill.name}
-                    className="bg-[#11162a] rounded-xl p-4 hover:bg-emerald-500/10 transition"
+                    className="bg-[#11162a] rounded-xl p-4 hover:bg-blue-500/10 transition"
                   >
 
                     <div className="flex items-center gap-3">
 
-                      <div className="text-2xl text-emerald-400">
+                      <div className="text-2xl text-blue-400">
                         {skill.icon}
                       </div>
 
@@ -145,7 +145,7 @@ function Skills() {
                             {skill.name}
                           </span>
 
-                          <span className="text-sm text-emerald-400">
+                          <span className="text-sm text-blue-400">
                             {skill.level}
                           </span>
 
@@ -155,7 +155,7 @@ function Skills() {
                         <div className="w-full bg-gray-700 h-2 rounded-full mt-3">
 
                           <div
-                            className="bg-emerald-500 h-2 rounded-full"
+                            className="bg-blue-500 h-2 rounded-full"
                             style={{ width: skill.progress }}
                           />
 

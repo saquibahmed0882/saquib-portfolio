@@ -39,7 +39,7 @@ function Experience() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-blue-400">
             Career
           </p>
 
@@ -51,7 +51,7 @@ function Experience() {
 
 
 
-        <div className="relative border-l border-emerald-500/40 ml-5">
+        <div className="relative border-l border-blue-500/40 ml-5">
 
 
           {experiences.map((exp,index)=>(
@@ -70,12 +70,12 @@ function Experience() {
               w-4
               h-4
               rounded-full
-              bg-emerald-500
+              bg-blue-500
               ">
               </div>
 
 
-              <span className="text-emerald-400 font-semibold">
+              <span className="text-blue-400 font-semibold">
                 {exp.year}
               </span>
 

@@ -12,7 +12,7 @@ function Education() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-blue-400">
             Academic Journey
           </p>
 
@@ -35,7 +35,7 @@ function Education() {
           "
         >
 
-          <span className="text-emerald-400 text-lg font-semibold">
+          <span className="text-blue-400 text-lg font-semibold">
             2023 - 2027
           </span>
 
@@ -66,7 +66,7 @@ function Education() {
             ].map((item)=>(
               <span
                 key={item}
-                className="px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300"
+                className="px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-300"
               >
                 {item}
               </span>

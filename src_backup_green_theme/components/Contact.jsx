@@ -15,7 +15,7 @@ function Contact() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-blue-400">
             Contact
           </p>
 
@@ -70,7 +70,7 @@ function Contact() {
 
               <a
               href="mailto:saquibahmed0882@gmail.com"
-              className="flex items-center gap-3 text-emerald-400"
+              className="flex items-center gap-3 text-blue-400"
               >
                 <FaEnvelope/>
                 saquibahmed0882@gmail.com
@@ -81,7 +81,7 @@ function Contact() {
               href="https://github.com/saquibahmed0882"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-3 hover:text-emerald-400"
+              className="flex items-center gap-3 hover:text-blue-400"
               >
                 <FaGithub/>
                 GitHub
@@ -92,7 +92,7 @@ function Contact() {
               href="https://www.linkedin.com/in/saquib-ahmed-ab21023a9"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-3 hover:text-emerald-400"
+              className="flex items-center gap-3 hover:text-blue-400"
               >
                 <FaLinkedin/>
                 LinkedIn
@@ -114,8 +114,8 @@ function Contact() {
           transition={{duration:0.8}}
           className="
           bg-gradient-to-br
-          from-emerald-600/20
-          to-green-600/20
+          from-blue-600/20
+          to-purple-600/20
           border border-white/10
           rounded-3xl
           p-10
@@ -145,8 +145,8 @@ function Contact() {
               px-8
               py-3
               rounded-full
-              bg-emerald-600
-              hover:bg-emerald-700
+              bg-blue-600
+              hover:bg-blue-700
               transition
               "
               >
