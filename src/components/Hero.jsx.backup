@@ -4,9 +4,9 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-      <section className="min-h-screen flex items-start md:items-center bg-[#061a14] pt-40 sm:pt-32 md:pt-24 pb-12">
+      <section className="min-h-screen flex items-start md:items-center bg-[#061a14] pt-32 md:pt-24 pb-12">
 
-      <div className="max-w-7xl mx-auto w-full px-5 sm:px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+      <div className="max-w-7xl mx-auto w-full px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
 
         <div>
 
@@ -21,7 +21,7 @@ function Hero() {
           border
           border-green-500/30
           text-green-400
-          mb-8
+          mb-6
           ">
             <span className="w-2 h-2 bg-green-400 rounded-full"></span>
             Available for AI & Software Projects
