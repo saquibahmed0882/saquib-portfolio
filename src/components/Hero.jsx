@@ -1,175 +1,64 @@
-import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import React from "react";
 import profile from "../assets/profile.png";
 
-function Hero() {
+const Hero = () => {
   return (
-      <section className="min-h-screen flex items-start md:items-center bg-orange-500 pt-40 sm:pt-32 md:pt-24 pb-12">
+    <section
+      id="home"
+      className="relative min-h-screen overflow-hidden bg-[#050816] text-white flex items-center px-6 md:px-16 pt-32"
+    >
 
-      <div className="max-w-7xl mx-auto w-full px-5 sm:px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+      {/* Animated Background */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute w-96 h-96 bg-blue-600/20 rounded-full blur-3xl top-10 left-10 animate-pulse"></div>
 
-        <div>
+        <div className="absolute w-80 h-80 bg-purple-600/20 rounded-full blur-3xl bottom-20 right-20 animate-pulse"></div>
+      </div>
 
-          <div className="
-          inline-flex
-          items-center
-          gap-2
-          px-4
-          py-2
-          rounded-full
-          bg-green-500/10
-          border
-          border-green-500/30
-          text-green-400
-          mb-8
-          ">
-            <span className="w-2 h-2 bg-green-400 rounded-full"></span>
-            Available for AI & Software Projects
+
+      <div className="relative z-10 max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+
+
+        <div className="space-y-6">
+
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/30 text-green-400 text-sm">
+            <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+            Available for AI/ML & Software Engineering Roles
           </div>
 
 
-          <p className="text-emerald-400 text-lg mb-3">
-            Hello, I'm
-          </p>
-
-
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
             Saquib Ahmed
           </h1>
 
 
-          <div className="text-2xl md:text-4xl text-gray-700 mt-6 h-16">
-
-            <TypeAnimation
-              sequence={[
-                "AI/ML Engineer",2000,
-                "Full Stack Developer",2000,
-                "Machine Learning Engineer",2000,
-                "Software Developer",2000,
-              ]}
-              speed={40}
-              repeat={Infinity}
-            />
-
-          </div>
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-300">
+            AI & Machine Learning Engineer
+          </h2>
 
 
-
-          <p className="text-gray-600 mt-8 max-w-xl leading-8 text-lg">
-            I build intelligent software, AI-powered applications,
-            machine learning solutions and scalable full-stack platforms
-            using modern technologies.
+          <p className="text-gray-400 max-w-xl text-lg">
+            B.Tech Artificial Intelligence & Machine Learning student at BIT Mesra.
+            Building AI solutions, ML models and scalable applications.
           </p>
 
 
-
-          <div className="flex flex-col sm:flex-row gap-5 mt-10">
-
+          <div className="flex gap-4 pt-4">
 
             <a
               href="#projects"
-              className="
-              bg-gradient-to-r
-              from-emerald-600
-              to-green-600
-              px-8
-              py-3
-              rounded-full
-              hover:scale-105
-              transition
-              "
+              className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700"
             >
               View Projects
             </a>
 
 
-
             <a
-              href="/Saquib Ahmed CV.pdf"
-              download
-              className="
-              border
-              border-gray-500
-              px-8
-              py-3
-              rounded-full
-              hover:bg-white
-              hover:text-black
-              transition
-              "
+              href="/resume.pdf"
+              className="px-6 py-3 border border-blue-500 rounded-lg hover:bg-blue-600"
             >
-              Download Resume
+              Resume
             </a>
-
-
-          </div>
-
-
-
-          <div className="
-          grid
-          grid-cols-3
-          gap-6
-          mt-12
-          ">
-
-
-            <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
-                2+
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Projects
-              </p>
-            </div>
-
-
-            <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
-                AI
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Specialization
-              </p>
-            </div>
-
-
-            <div>
-              <h3 className="text-3xl font-bold text-emerald-400">
-                2027
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Graduation
-              </p>
-            </div>
-
-
-          </div>
-
-
-
-
-          <div className="flex gap-6 mt-10 text-3xl">
-
-
-            <a href="https://github.com/saquibahmed0882"
-            target="_blank"
-            rel="noreferrer">
-              <FaGithub />
-            </a>
-
-
-            <a href="https://www.linkedin.com/in/saquib-ahmed-ab21023a9"
-            target="_blank"
-            rel="noreferrer">
-              <FaLinkedin />
-            </a>
-
-
-            <a href="mailto:saquibahmed0882@gmail.com">
-              <FaEnvelope />
-            </a>
-
 
           </div>
 
@@ -180,36 +69,13 @@ function Hero() {
 
         <div className="flex justify-center">
 
-          <div className="relative">
-
-            <div className="
-            absolute
-            inset-0
-            bg-emerald-500
-            blur-3xl
-            rounded-full
-            opacity-30
-            animate-pulse
-            "></div>
-
+          <div className="w-72 h-72 rounded-full border-4 border-blue-500 overflow-hidden shadow-xl">
 
             <img
               src={profile}
               alt="Saquib Ahmed"
-              className="
-              relative
-              w-80
-              h-80
-              md:w-[420px]
-              md:h-[420px]
-              rounded-full
-              object-cover
-              border-4
-              border-emerald-500
-              shadow-2xl
-              "
+              className="w-full h-full object-cover"
             />
-
 
           </div>
 
@@ -220,6 +86,6 @@ function Hero() {
 
     </section>
   );
-}
+};
 
 export default Hero;

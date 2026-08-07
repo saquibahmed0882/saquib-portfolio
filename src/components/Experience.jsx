@@ -31,7 +31,7 @@ function Experience() {
 
     <section
       id="experience"
-      className="py-32 px-6 bg-gray-50"
+      className="py-32 px-8 md:px-6 bg-[#0B1120]"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -39,11 +39,11 @@ function Experience() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-[#06B6D4]">
             Career
           </p>
 
-          <h2 className="text-5xl font-bold mt-4">
+          <h2 className="text-5xl font-extrabold mt-4 text-[#FFFFFF]">
             Experience
           </h2>
 
@@ -51,7 +51,7 @@ function Experience() {
 
 
 
-        <div className="relative border-l border-emerald-500/40 ml-5">
+        <div className="relative border-l border-blue-500/40 ml-5">
 
 
           {experiences.map((exp,index)=>(
@@ -70,19 +70,19 @@ function Experience() {
               w-4
               h-4
               rounded-full
-              bg-emerald-500
+              bg-[#2563EB]
               ">
               </div>
 
 
-              <span className="text-emerald-400 font-semibold">
+              <span className="text-[#06B6D4] font-semibold">
                 {exp.year}
               </span>
 
 
               <div className="
               mt-3
-              bg-white
+              bg-[#1E293B]
               border
               border-white/10
               rounded-2xl
@@ -95,12 +95,12 @@ function Experience() {
                 </h3>
 
 
-                <p className="text-gray-600 mt-2">
+                <p className="text-[#FFFFFF] mt-2">
                   {exp.company}
                 </p>
 
 
-                <ul className="mt-5 space-y-3 text-gray-700">
+                <ul className="mt-5 space-y-3 text-[#FFFFFF]">
 
                   {exp.points.map((point)=>(
 

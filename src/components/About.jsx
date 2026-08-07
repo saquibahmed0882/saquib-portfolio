@@ -22,7 +22,7 @@ function About() {
   return (
     <section
       id="about"
-      className="py-28 px-6 bg-white"
+      className="py-32 px-8 md:px-6 bg-[#1E293B]"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -35,9 +35,9 @@ function About() {
           whileInView={{opacity:1,y:0}}
           transition={{duration:1}}
           className="
-          bg-white
+          bg-[#1E293B]
           backdrop-blur-xl
-          border border-gray-200 shadow-lg
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-10
           shadow-2xl
@@ -47,15 +47,15 @@ function About() {
 
           <div className="text-center mb-12">
 
-            <p className="uppercase tracking-[6px] text-emerald-400">
+            <p className="uppercase tracking-[6px] text-[#06B6D4]">
               About Me
             </p>
 
-            <h2 className="text-5xl font-bold mt-4">
+            <h2 className="text-5xl font-extrabold mt-4 text-[#FFFFFF]">
 
               Turning Ideas Into
 
-              <span className="text-emerald-500">
+              <span className="text-[#2563EB]">
                 {" "}Intelligent Software
               </span>
 
@@ -84,7 +84,7 @@ function About() {
                 w-[420px]
                 rounded-3xl
                 border
-                border-emerald-500/40
+                border-blue-500/40
                 shadow-[0_0_50px_rgba(37,99,235,0.3)]
                 "
               />
@@ -100,7 +100,7 @@ function About() {
 
               <div className="flex items-center gap-3 mb-5">
 
-                <FaUserGraduate className="text-emerald-400 text-3xl"/>
+                <FaUserGraduate className="text-[#06B6D4] text-3xl"/>
 
                 <h3 className="text-3xl font-semibold">
                   Overview
@@ -109,7 +109,7 @@ function About() {
               </div>
 
 
-              <p className="text-gray-700 text-lg leading-8">
+              <p className="text-[#FFFFFF] text-lg leading-8">
 
                 I am Saquib Ahmed, a B.Tech Artificial Intelligence &
                 Machine Learning student at Birla Institute of Technology,
@@ -147,9 +147,9 @@ function About() {
           transition={{duration:1}}
           className="
           mt-10
-          bg-white
+          bg-[#1E293B]
           backdrop-blur-xl
-          border border-gray-200 shadow-lg
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-10
           "
@@ -158,7 +158,7 @@ function About() {
 
           <div className="flex items-center gap-3 mb-6">
 
-            <FaLightbulb className="text-emerald-400 text-3xl"/>
+            <FaLightbulb className="text-[#06B6D4] text-3xl"/>
 
             <h3 className="text-3xl font-semibold">
               Details
@@ -168,7 +168,7 @@ function About() {
 
 
 
-          <p className="text-gray-600 text-lg leading-8 mb-8">
+          <p className="text-[#FFFFFF] text-lg leading-8 mb-8">
 
             My interests include Artificial Intelligence,
             Machine Learning, Data Science and Full Stack Development.
@@ -188,16 +188,16 @@ function About() {
                 key={item.text}
                 className="
                 flex items-center gap-4
-                bg-gray-100
+                bg-slate-800
                 rounded-xl
                 p-5
-                border border-gray-200 shadow-lg
-                hover:border-emerald-500
+                border border-slate-600 shadow-lg
+                hover:border-blue-500
                 transition
                 "
               >
 
-                <span className="text-emerald-400 text-2xl">
+                <span className="text-[#06B6D4] text-2xl">
                   {item.icon}
                 </span>
 

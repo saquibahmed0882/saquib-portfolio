@@ -28,7 +28,7 @@ function Navbar() {
       left-0
       w-full
       z-50
-      bg-white/80
+      bg-[#0B1120]/90
       backdrop-blur-xl
       border-b
       border-white/10
@@ -38,7 +38,7 @@ function Navbar() {
       <div className="
       max-w-7xl
       mx-auto
-      px-6
+      px-8 md:px-6
       py-5
       flex
       justify-between
@@ -52,12 +52,12 @@ function Navbar() {
         font-black
         italic
         tracking-widest
-        bg-gradient-to-r
+        
         from-cyan-400
-        via-emerald-500
-        to-green-600
-        bg-clip-text
-        text-transparent
+        via-blue-500
+        to-cyan-600
+        
+        text-[#FFFFFF]
         "
         >
           SA
@@ -70,7 +70,7 @@ function Navbar() {
         lg:flex
         gap-8
         items-center
-        text-gray-700
+        text-[#FFFFFF]
         ">
 
 
@@ -80,7 +80,7 @@ function Navbar() {
           key={link.name}
           href={link.href}
           className="
-          hover:text-emerald-400
+          hover:text-[#06B6D4]
           transition
           "
           >
@@ -98,8 +98,8 @@ function Navbar() {
         px-5
         py-2
         rounded-full
-        bg-emerald-600
-        hover:bg-emerald-700
+        bg-[#2563EB]
+        hover:bg-[#1D4ED8]
         "
         >
           Resume
@@ -111,7 +111,7 @@ function Navbar() {
 
 
         <button
-        className="lg:hidden text-2xl"
+        className="lg:hidden text-2xl text-white hover:text-cyan-400 transition"
         onClick={()=>setOpen(!open)}
         >
 
@@ -128,12 +128,12 @@ function Navbar() {
 
       <div className="
       lg:hidden
-      px-6
+      px-8 md:px-6
       pb-6
       flex
       flex-col
       gap-5
-      text-gray-700
+      text-[#FFFFFF]
       ">
 
 

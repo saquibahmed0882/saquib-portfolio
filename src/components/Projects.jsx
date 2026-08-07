@@ -71,7 +71,7 @@ function Projects() {
 
     <section
       id="projects"
-      className="py-32 px-6 bg-gray-50"
+      className="py-32 px-8 md:px-6 bg-[#0B1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -79,11 +79,11 @@ function Projects() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-[#06B6D4]">
             Portfolio
           </p>
 
-          <h2 className="text-5xl font-bold mt-4">
+          <h2 className="text-5xl font-extrabold mt-4 text-[#FFFFFF]">
             Featured Projects
           </h2>
 
@@ -107,9 +107,9 @@ function Projects() {
           transition={{duration:0.7,delay:index*0.2}}
 
           className="
-          bg-white
+          bg-[#1E293B]
           backdrop-blur-xl
-          border border-gray-200 shadow-lg
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-8
           hover:-translate-y-3
@@ -122,9 +122,9 @@ function Projects() {
             <div className="
             h-40
             rounded-2xl
-            bg-gradient-to-r
-            from-emerald-600/30
-            to-green-600/30
+            
+            from-blue-600/30
+            to-cyan-600/30
             flex
             items-center
             justify-center
@@ -139,7 +139,7 @@ function Projects() {
 
 
 
-            <p className="text-gray-600 leading-7 mb-6">
+            <p className="text-[#FFFFFF] leading-7 mb-6">
               {project.description}
             </p>
 
@@ -150,7 +150,7 @@ function Projects() {
             </h4>
 
 
-            <ul className="space-y-2 text-gray-700 mb-6">
+            <ul className="space-y-2 text-[#FFFFFF] mb-6">
 
               {project.features.map((feature)=>(
 
@@ -174,10 +174,10 @@ function Projects() {
                 px-3
                 py-1
                 rounded-full
-                bg-emerald-500/10
+                bg-[#2563EB]/10
                 border
-                border-emerald-500/30
-                text-emerald-300
+                border-blue-500/30
+                text-[#FFFFFF]
                 text-sm
                 "
                 >
@@ -206,8 +206,8 @@ function Projects() {
               px-5
               py-2
               rounded-full
-              bg-emerald-600
-              hover:bg-emerald-700
+              bg-[#2563EB]
+              hover:bg-[#1D4ED8]
               "
               >
 

@@ -7,7 +7,7 @@ function Contact() {
 
     <section
       id="contact"
-      className="py-32 px-6 bg-gray-50"
+      className="py-32 px-8 md:px-6 bg-[#0B1120]"
     >
 
       <div className="max-w-6xl mx-auto">
@@ -15,11 +15,11 @@ function Contact() {
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-[#06B6D4]">
             Contact
           </p>
 
-          <h2 className="text-5xl font-bold mt-4">
+          <h2 className="text-5xl font-extrabold mt-4 text-[#FFFFFF]">
             Let's Start a Project Together
           </h2>
 
@@ -36,19 +36,19 @@ function Contact() {
           whileInView={{opacity:1,x:0}}
           transition={{duration:0.8}}
           className="
-          bg-white
-          border border-gray-200 shadow-lg
+          bg-[#1E293B]
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-10
           "
           >
 
-            <h3 className="text-3xl font-bold mb-6">
+            <h3 className="text-3xl font-bold mb-6 text-[#FFFFFF]">
               Have an AI idea?
             </h3>
 
 
-            <p className="text-gray-700 leading-8">
+            <p className="text-[#FFFFFF] leading-8">
 
               Need a developer for your project?
 
@@ -70,7 +70,7 @@ function Contact() {
 
               <a
               href="mailto:saquibahmed0882@gmail.com"
-              className="flex items-center gap-3 text-emerald-400"
+              className="flex items-center gap-3 text-[#06B6D4]"
               >
                 <FaEnvelope/>
                 saquibahmed0882@gmail.com
@@ -81,7 +81,7 @@ function Contact() {
               href="https://github.com/saquibahmed0882"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-3 hover:text-emerald-400"
+              className="flex items-center gap-3 hover:text-[#06B6D4]"
               >
                 <FaGithub/>
                 GitHub
@@ -92,7 +92,7 @@ function Contact() {
               href="https://www.linkedin.com/in/saquib-ahmed-ab21023a9"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-3 hover:text-emerald-400"
+              className="flex items-center gap-3 hover:text-[#06B6D4]"
               >
                 <FaLinkedin/>
                 LinkedIn
@@ -114,9 +114,9 @@ function Contact() {
           transition={{duration:0.8}}
           className="
           bg-gradient-to-br
-          from-emerald-600/20
-          to-green-600/20
-          border border-gray-200 shadow-lg
+          from-blue-600/20
+          to-cyan-600/20
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-10
           "
@@ -127,7 +127,7 @@ function Contact() {
             </h3>
 
 
-            <p className="text-gray-700 leading-7">
+            <p className="text-[#FFFFFF] leading-7">
 
               Open for internships, collaborations,
               AI projects and software development opportunities.
@@ -145,8 +145,8 @@ function Contact() {
               px-8
               py-3
               rounded-full
-              bg-emerald-600
-              hover:bg-emerald-700
+              bg-[#2563EB]
+              hover:bg-[#1D4ED8]
               transition
               "
               >

@@ -79,7 +79,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="pt-48 pb-28 px-6 bg-gradient-to-b from-gray-50 to-white"
+      className="pt-48 pb-28 px-8 md:px-6 bg-gradient-to-b from-gray-50 to-white"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -91,7 +91,7 @@ function Skills() {
           className="text-center mb-16"
         >
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-[#06B6D4]">
             Expertise
           </p>
 
@@ -99,7 +99,7 @@ function Skills() {
             Technical Skills
           </h2>
 
-          <p className="text-gray-600 mt-5 text-lg">
+          <p className="text-[#FFFFFF] mt-5 text-lg">
             Technologies I use to build AI-powered and scalable applications.
           </p>
 
@@ -113,7 +113,7 @@ function Skills() {
             <motion.div
               key={category.title}
               whileHover={{ y: -8 }}
-              className="bg-white backdrop-blur-lg border border-gray-200 shadow-lg rounded-3xl p-8"
+              className="bg-[#1E293B] backdrop-blur-lg border border-slate-600 shadow-lg rounded-3xl p-8"
             >
 
               <h3 className="text-2xl font-semibold mb-6">
@@ -127,12 +127,12 @@ function Skills() {
 
                   <div
                     key={skill.name}
-                    className="bg-gray-100 rounded-xl p-4 hover:bg-emerald-500/10 transition"
+                    className="bg-slate-800 rounded-xl p-4 hover:bg-[#2563EB]/10 transition"
                   >
 
                     <div className="flex items-center gap-3">
 
-                      <div className="text-2xl text-emerald-400">
+                      <div className="text-2xl text-[#06B6D4]">
                         {skill.icon}
                       </div>
 
@@ -145,7 +145,7 @@ function Skills() {
                             {skill.name}
                           </span>
 
-                          <span className="text-sm text-emerald-400">
+                          <span className="text-sm text-[#06B6D4]">
                             {skill.level}
                           </span>
 
@@ -155,7 +155,7 @@ function Skills() {
                         <div className="w-full bg-gray-700 h-2 rounded-full mt-3">
 
                           <div
-                            className="bg-emerald-500 h-2 rounded-full"
+                            className="bg-[#2563EB] h-2 rounded-full"
                             style={{ width: skill.progress }}
                           />
 

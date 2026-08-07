@@ -7,8 +7,8 @@ function Footer(){
     <footer
     className="
     py-12
-    px-6
-    bg-white
+    px-8 md:px-6
+    bg-[#0B1120]
     border-t
     border-white/10
     "
@@ -23,12 +23,12 @@ function Footer(){
         font-black
         italic
         tracking-widest
-        bg-gradient-to-r
-        from-cyan-400
-        via-emerald-500
-        to-green-600
-        bg-clip-text
-        text-transparent
+        
+        
+        
+        
+        
+        text-[#FFFFFF]
         "
         >
           SA
@@ -36,12 +36,12 @@ function Footer(){
 
 
 
-        <p className="text-gray-600 mt-4 text-lg">
+        <p className="text-[#FFFFFF] mt-4 text-lg">
           AI/ML Engineer | Full Stack Developer
         </p>
 
 
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-100 mt-2">
           Building intelligent software and scalable digital solutions.
         </p>
 
@@ -60,7 +60,7 @@ function Footer(){
           href="https://github.com/saquibahmed0882"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-[#06B6D4] transition"
           >
             <FaGithub/>
           </a>
@@ -70,7 +70,7 @@ function Footer(){
           href="https://linkedin.com"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-[#06B6D4] transition"
           >
             <FaLinkedin/>
           </a>
@@ -78,7 +78,7 @@ function Footer(){
 
           <a
           href="mailto:saquibahmed0882@gmail.com"
-          className="hover:text-emerald-400 transition"
+          className="hover:text-[#06B6D4] transition"
           >
             <FaEnvelope/>
           </a>
@@ -89,7 +89,7 @@ function Footer(){
 
 
         <p className="
-        text-gray-500
+        text-gray-100
         mt-10
         text-sm
         ">

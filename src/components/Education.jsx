@@ -5,18 +5,18 @@ function Education() {
   return (
     <section
       id="education"
-      className="py-32 px-6 bg-white"
+      className="py-32 px-8 md:px-6 bg-[#1E293B]"
     >
 
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-16">
 
-          <p className="uppercase tracking-[6px] text-emerald-400">
+          <p className="uppercase tracking-[6px] text-[#06B6D4]">
             Academic Journey
           </p>
 
-          <h2 className="text-5xl font-bold mt-4">
+          <h2 className="text-5xl font-extrabold mt-4 text-[#FFFFFF]">
             My Journey
           </h2>
 
@@ -28,14 +28,14 @@ function Education() {
           whileInView={{opacity:1,y:0}}
           transition={{duration:0.8}}
           className="
-          bg-white
-          border border-gray-200 shadow-lg
+          bg-[#1E293B]
+          border border-slate-600 shadow-lg
           rounded-3xl
           p-10
           "
         >
 
-          <span className="text-emerald-400 text-lg font-semibold">
+          <span className="text-[#06B6D4] text-lg font-semibold">
             2023 - 2027
           </span>
 
@@ -45,7 +45,7 @@ function Education() {
           </h3>
 
 
-          <p className="text-gray-600 text-xl mt-3">
+          <p className="text-[#FFFFFF] text-xl mt-3">
             Birla Institute of Technology, Mesra
           </p>
 
@@ -66,7 +66,7 @@ function Education() {
             ].map((item)=>(
               <span
                 key={item}
-                className="px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300"
+                className="px-4 py-2 rounded-full bg-[#2563EB]/10 border border-blue-500/30 text-[#FFFFFF]"
               >
                 {item}
               </span>
@@ -82,7 +82,7 @@ function Education() {
           </h4>
 
 
-          <div className="grid md:grid-cols-2 gap-3 text-gray-700">
+          <div className="grid md:grid-cols-2 gap-3 text-[#FFFFFF]">
 
             <p>• Data Structures & Algorithms</p>
             <p>• Machine Learning</p>
@@ -103,7 +103,7 @@ function Education() {
           </h4>
 
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-[#FFFFFF]">
 
             <li>• Building AI-powered applications and intelligent systems</li>
 
@@ -125,7 +125,7 @@ function Education() {
           </h4>
 
 
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-[#FFFFFF]">
 
             <li>• Built multiple AI/ML and Full Stack projects</li>
 
