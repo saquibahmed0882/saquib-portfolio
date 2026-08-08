@@ -9,10 +9,10 @@ function Experience() {
       role: "Industrial Intern · EDP Department",
       company: "Banaras Locomotive Works, Varanasi",
       points: [
-"Worked with the EDP department to understand industrial data operations, planning and technical documentation.",
-"Gained practical exposure to CNC programming, manufacturing workflows and industrial processes.",
-"Developed an understanding of EDP operations, industrial planning and technical documentation.",
-],
+        "Worked on EDP operations and industrial data management.",
+        "Gained exposure to CNC programming and manufacturing processes.",
+        "Learned industrial workflow and technical documentation.",
+      ],
     },
     {
       number: "02",
@@ -21,10 +21,10 @@ function Experience() {
       role: "Data Analyst & Machine Learning Intern",
       company: "Olinp Technology Pvt. Limited",
       points: [
-"Worked on data preprocessing, analysis and exploratory machine learning workflows.",
-"Applied Python-based data handling techniques to datasets and explored practical ML concepts.",
-"Generated meaningful insights from data to support practical technology solutions.",
-],
+        "Worked on data analysis and preprocessing techniques.",
+        "Explored machine learning concepts and practical AI solutions.",
+        "Worked with datasets to generate meaningful insights.",
+      ],
     },
   ];
 

@@ -218,37 +218,104 @@ function App() {
         </section>
 
         {/* EXPERIENCE */}
-        <section id="experience" className="content-section section">
-          <div className="section-label">03 · EXPERIENCE</div>
+    <section id="experience" className="content-section section experience-section">
+      <div className="section-label">03 · EXPERIENCE</div>
 
-          <div className="experience-item">
-            <div>
-              <small>2026</small>
-              <h3>Banaras Locomotive Works</h3>
-              <p>Industrial Internship · EDP Department · Varanasi</p>
+      <div className="experience-intro">
+        <div className="experience-copy">
+          <small>PROFESSIONAL JOURNEY</small>
+
+          <h2>
+            From industrial systems to
+            <em> intelligent technology.</em>
+          </h2>
+
+          <p>
+            My internship experience spans industrial engineering, data
+            analysis and machine learning — combining practical workflows
+            with modern technology.
+          </p>
+        </div>
+
+        <div className="experience-earth">
+          <div className="earth-orbit orbit-one"></div>
+          <div className="earth-orbit orbit-two"></div>
+
+          <div className="earth">
+            {Array.from({ length: 150 }).map((_, i) => {
+              const phi = Math.acos(1 - (2 * (i + 0.5)) / 150);
+              const theta = Math.PI * (1 + Math.sqrt(5)) * i;
+
+              const x = Math.sin(phi) * Math.cos(theta);
+              const y = Math.cos(phi);
+              const z = Math.sin(phi) * Math.sin(theta);
+
+              return (
+                <span
+                  key={i}
+                  className="earth-dot"
+                  style={{
+                    left: `${50 + x * 44}%`,
+                    top: `${50 - y * 44}%`,
+                    opacity: `${0.25 + Math.max(0, z) * 0.55}`,
+                    transform: `translate(-50%, -50%) scale(${
+                      0.7 + Math.max(0, z) * 0.8
+                    })`,
+                  }}
+                />
+              );
+            })}
+
+            <div className="earth-location blw-location">
+              <span></span>
+              <strong>BLW</strong>
             </div>
 
-            <p>
-              Exposure to EDP operations, planning and industrial technology
-              workflows at BLW.
-            </p>
-          </div>
-
-          <div className="experience-item">
-            <div>
-              <small>2026</small>
-              <h3>Olinp Technology Pvt. Limited</h3>
-              <p>Data Analyst & Machine Learning Intern</p>
+            <div className="earth-location olinp-location">
+              <span></span>
+              <strong>OLINP</strong>
             </div>
-
-            <p>
-              Worked with data analysis and machine learning concepts to solve
-              practical technology problems.
-            </p>
           </div>
-        </section>
 
-        {/* PROJECTS */}
+          <div className="earth-caption">
+            <span>INDIA</span>
+            <span>·</span>
+            <span>2026</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="experience-list">
+        <article className="experience-item">
+          <div>
+            <small>JUN 2026 — JUL 2026</small>
+            <h3>Banaras Locomotive Works</h3>
+            <p>Industrial Internship · EDP Department · Varanasi</p>
+          </div>
+
+          <p>
+            Exposure to EDP operations, industrial data management, planning,
+            CNC programming and manufacturing technology workflows at BLW.
+          </p>
+        </article>
+
+        <article className="experience-item">
+          <div>
+            <small>JAN 2026 — MAR 2026</small>
+            <h3>Olinp Technology Pvt. Limited</h3>
+            <p>Data Analyst & Machine Learning Intern</p>
+          </div>
+
+          <p>
+            Worked with data analysis, preprocessing and machine learning
+            concepts to explore practical AI solutions and generate meaningful
+            insights from datasets.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    {/* PROJECTS */}
         <section id="projects" className="content-section section">
           <div className="section-label">04 · SELECTED PROJECTS</div>
 
