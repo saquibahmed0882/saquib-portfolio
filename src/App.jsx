@@ -18,7 +18,7 @@ const projects = [
     description:
       "Machine learning application that predicts house prices using the King County House Sales dataset and Random Forest Regression.",
     tech: "Python · Pandas · NumPy · Scikit-learn · Streamlit",
-    link: "#",
+    link: "https://github.com/saquibahmed0882/house-price-prediction",
   },
   
 ];
