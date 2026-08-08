@@ -50,7 +50,7 @@ function App() {
           <a href="#contact">Contact</a>
         </nav>
 
-        <a href="/Saquib Ahmed CV.pdf" download className="nav-resume">
+        <a href="/Saquib-Ahmed-CV.pdf" download className="nav-resume">
           Resume <FaArrowUpRightFromSquare />
         </a>
       </header>

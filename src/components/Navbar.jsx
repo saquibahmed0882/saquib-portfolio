@@ -92,7 +92,7 @@ function Navbar() {
 
 
         <a
-        href="/Saquib Ahmed CV.pdf"
+        href="/Saquib-Ahmed-CV.pdf"
         download
         className="
         px-5
