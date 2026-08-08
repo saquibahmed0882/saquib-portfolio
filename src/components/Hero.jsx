@@ -57,7 +57,7 @@ function Hero() {
             <h1 className="font-serif text-[52px] sm:text-[70px] md:text-[88px] lg:text-[92px] leading-[0.9] tracking-[-0.045em] font-semibold text-[#201813]">
               hey, I'm{" "}
               <span className="italic font-normal">
-                Saquib
+                Saquib Ahmed
               </span>
               <span className="text-[#D9542B]">.</span>
             </h1>

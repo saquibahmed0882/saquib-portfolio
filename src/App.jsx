@@ -38,7 +38,7 @@ function App() {
       {/* NAVBAR */}
       <header className="navbar">
         <a href="#home" className="brand">
-          Saquib<span>.</span>
+          Saquib Ahmed<span>.</span>
         </a>
 
         <nav>
@@ -75,7 +75,7 @@ function App() {
               </div>
 
               <h1>
-                hey, I'm <em>Saquib</em><span className="orange">.</span>
+                hey, I'm <em>Saquib Ahmed</em><span className="orange">.</span>
               </h1>
 
               <div className="intro-lines">
