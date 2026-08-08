@@ -20,7 +20,15 @@ const projects = [
     tech: "Python · Pandas · NumPy · Scikit-learn · Streamlit",
     link: "#",
   },
-  
+  {
+    number: "03",
+    title: "AI Medical Copilot",
+    type: "ARTIFICIAL INTELLIGENCE",
+    description:
+      "An AI-focused project designed around intelligent assistance, structured medical information and practical software workflows.",
+    tech: "Python · Machine Learning · AI · Full Stack",
+    link: "#",
+  },
 ];
 
 function App() {
